@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid rgb(0, 255, 0); */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+}
+
+.main {
+    padding-top: 70px;
+    margin: 0 5%;
+}
+
+.menu {
+    position: fixed;
+    padding: 15px;
+    background: rgba(4, 4, 4, 0.2);
+    width: 100%;
+}
+
+.menu button {
+    padding: 10px;
+    border: none;
+    margin-right: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 2px solid rgba(0, 0, 0, 0);
+}
+
+
+.menu button:hover {
+    border: 2px solid black;
+    /* box-shadow: 0 0 10px 5px black; */
+}
+
+
+
+.search-icon {
+    fill: rgb(81, 105, 14);
+}
+
+.table {
+    width: 750px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+.title {
+    font-weight: 900;
+    padding: 10px;
+}
+
+.td1,
+.td2 {
+    display: inline-block;
+    padding: 10px;
+}
+
+.td1 {
+    width: 300px;
+    border-right: 1px solid black;
+    font-weight: 700;
+}
+
+.table,
+.row,
+.title {
+    border: 1px solid black;
+}
+
+.mountain {
+    margin: 0 auto;
+    width: 750px;
+}
+
+.img-a {
+    width: 750px;
+    height: 350px;
+}
+
+span.separator {
+    display: block;
+    text-align: center;
+}
+
+.separator {
+    width: 100%;
+    margin: 30px 0;
+}
+
+p {
+    margin: 0 5%;
+}
+
+#a {
+    font-style: italic;
+}

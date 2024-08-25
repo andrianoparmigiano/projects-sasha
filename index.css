@@ -1,0 +1,20 @@
+body {
+    color: red;
+}
+
+.list li.li{
+    color: blue;
+}
+
+ul, ol{
+    list-style:lower-greek;
+}
+
+div.test{
+    height: 100px;
+    width: 100px;
+    border: 5px solid red;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 100%;
+}
